@@ -1,4 +1,5 @@
-O Sistema de Comanda Eletrônica é um projeto pessoal de estudo, desenvolvido para aprimorar minhas habilidades em desenvolvimento web. Este sistema permite que os clientes façam pedidos diretamente em um tablet, sem a necessidade de interação com garçons. O projeto foi construído utilizando o framework Laravel, JavaScript assíncrono, jQuery e MySQL.
+O Sistema de Comanda Eletrônica é um projeto pessoal de estudo, desenvolvido para aprimorar minhas habilidades em desenvolvimento web. Este sistema permite que os clientes façam pedidos diretamente em um tablet, sem a necessidade de interação com garçons. 
+O projeto foi construído utilizando o framework Laravel, JavaScript assíncrono, jQuery e MySQL.
 
 
 Os principais objetivos deste projeto de estudo incluíram:

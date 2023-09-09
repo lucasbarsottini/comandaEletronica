@@ -1,0 +1,34 @@
+O Sistema de Comanda Eletrônica é um projeto pessoal de estudo, desenvolvido para aprimorar minhas habilidades em desenvolvimento web. Este sistema permite que os clientes façam pedidos diretamente em um tablet, sem a necessidade de interação com garçons. O projeto foi construído utilizando o framework Laravel, JavaScript assíncrono, jQuery e MySQL.
+
+
+Os principais objetivos deste projeto de estudo incluíram:
+
+1 - Aprofundar meu conhecimento em desenvolvimento web.
+2 - Dominar o uso do framework Laravel para criar aplicações web.
+3 - Praticar a integração de JavaScript e jQuery para aprimorar a interatividade da interface do usuário.
+4 - Explorar a integração de um banco de dados MySQL para armazenamento de dados.
+
+Desenvolvimento:
+
+° Desenvolvi o sistema com base em tutoriais e cursos online, aplicando os conceitos aprendidos ao longo do estudo
+
+° Usei o Laravel para criar rotas, controladores e modelos, seguindo as melhores práticas recomendadas pelo framework.
+
+° Implementei JavaScript assíncrono e jQuery para melhorar a experiência do usuário na interface do cliente.
+
+° Utilizei o MySQL para armazenar informações de pedidos e clientes.
+
+Meu aprendizado:
+
+° Durante o projeto, aprofundei meu conhecimento em PHP e Laravel, adquirindo experiência prática em desenvolvimento web.
+
+° Aprendi a criar uma interface de usuário amigável e interativa, tornando a navegação do cliente mais intuitiva.
+
+° Desenvolvi habilidades em manipulação de banco de dados, incluindo a criação e consulta de tabelas MySQL.
+
+° Melhorei minha capacidade de solucionar problemas e depurar código.
+
+Conclusão: 
+
+O Sistema de Comanda Eletrônica (Projeto de Estudo) é um exemplo do meu comprometimento com a aprendizagem contínua e meu desejo de aprimorar minhas habilidades em desenvolvimento web. Este projeto não apenas demonstra minhas habilidades técnicas, mas também minha capacidade de aplicar conceitos aprendidos de forma prática.
+

@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ysabeau:wght@100&display=swap");
+
+:root {
+    --cor--botao: #20b92880;
+}
+
+.page {
+    background-color: hsla(36, 100%, 55%, 0.2);
+
+    width: 100%;
+
+    height: 55.5rem;
+
+    align-items: center;
+
+    background-image: url("../img/fechamento/fundo2.png");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center center;
+}
+
+.principal {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    width: 100%;
+}
+
+.bolinha {
+    height: 120px;
+
+    width: 120px;
+
+    background-color: rgb(254, 221, 170, 0.7);
+
+    display: block;
+
+    border: solid 2px black;
+
+    border-radius: 90%;
+
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.botao__itens {
+    background: none;
+
+    border: none;
+
+    font-size: 35px;
+
+    margin-top: 5px;
+}
+
+.botao__itens:hover {
+    cursor: pointer;
+}
+
+.container__cabecalho {
+    margin-bottom: 0.5rem;
+
+    background-color: rgba(243, 242, 235, 0.2);
+
+    width: 100%;
+
+    height: 4.75rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 40px;
+
+    color: rgb(250, 250, 250);
+
+    font-family: "Istok Web";
+
+    font-style: normal;
+
+    font-weight: 700;
+}
+
+.botao__fechar__cabecalho {
+    font-size: 1.875rem;
+
+    color: yellow;
+
+    text-decoration: none;
+
+    margin-right: 0.625rem;
+}
+
+.container__principal {
+    bottom: 4rem;
+
+    display: inline-flex;
+
+    height: 32rem;
+
+    width: 25rem;
+
+    background-color: rgb(254, 221, 170, 0.7);
+
+    margin: 8% auto;
+
+    margin-bottom: 6rem;
+
+    flex-wrap: wrap;
+
+    box-shadow: 1px 1px 30px 35px rgba(0, 0, 0, 0.6);
+
+    border-radius: 25px;
+
+    flex-direction: column;
+
+    gap: 2.4rem;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.principal__texto {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+
+    font-style: normal;
+
+    font-weight: 600;
+
+    font-size: 25px;
+
+    line-height: 30px;
+
+    display: inline-block;
+}
+
+.principal__produto {
+    align-items: center;
+
+    justify-content: center;
+}
+
+.principal__itens {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+
+    font: optional;
+
+    font-weight: 900;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 20px;
+}
+
+.submit__container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    font-style: italic;
+    color: whitesmoke;
+
+    font-weight: 600;
+
+    font-size: 20px;
+
+    background: var(--cor--botao);
+
+    border-radius: 20px;
+
+    border: none;
+
+    justify-content: center;
+
+    padding: 0.2rem 2rem;
+
+    border: 1.8px solid black;
+    transition: 600ms;
+}
+
+.submit__container:hover {
+    cursor: pointer;
+
+    color: white;
+
+    background-color: #16df2091;
+
+    transition: 500ms;
+    transform: scale(1.5);
+}
+
+hr {
+    border: 1px solid black;
+}
+
+footer {
+    position: absolute;
+
+    bottom: 0;
+
+    background-color: rgb(231, 155, 59, 0.5);
+
+    opacity: 50%;
+
+    width: 100%;
+
+    height: 6.5vh;
+
+    text-align: center;
+}
+
+.footer_container {
+    text-align: center;
+
+    font-size: 23px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+.footer_assinatura {
+    font-size: 20px;
+}
+
+.valor_container {
+    background-color: rgba(85, 38, 38, 0.2);
+
+    text-align: center;
+
+    font-family: sans-serif;
+
+    font-size: 20px;
+
+    font-style: oblique;
+
+    height: 50px;
+
+    border: 2px solid rgb(17, 17, 17);
+}
+
+.valor_total {
+    padding-top: 15px;
+}
+
+.principal_pedido {
+    font-family: "Ysabeau" sans-serif;
+
+    font: optional;
+
+    font-weight: 900;
+
+    margin-top: 25px;
+
+    font-size: 30px;
+}

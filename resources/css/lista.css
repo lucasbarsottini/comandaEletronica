@@ -1,0 +1,154 @@
+:root {
+    --cor--principal: #FFDDAB;
+    --cor--cabecalho: #b9202300;
+    --cor--branco: #F5F5F5;
+    --cor--botao:   #20b92880;
+    }
+    
+    .page{
+        
+        background-color: var(--cor--principal);
+        width: 100%;
+        height: 51rem;
+        align-items: center;
+        background-image: url('../img/lista/fundo.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .container__cabecalho{
+        background-color: var(--cor--cabecalho);
+        width: 100%;
+        height: 4.75rem;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .botao__fechar__cabecalho{
+        font-size: 1.875rem;
+        color: yellow;
+        text-decoration: none;
+        margin-right:0.625rem;
+    }
+    .container__principal{
+        display: flex;
+        height: 28rem;
+        width: 21.125rem;
+        background-color: rgb(254, 221, 170,0.7);
+        margin: 2% auto;
+        align-items: center;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 30px 35px rgba(0, 0, 0, 0.6);
+        border-radius: 30px;
+        justify-content: space-between;
+        flex-direction: column;
+     
+    }
+    
+    
+    .principal__cardapio__item{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .cardapio__imagem{
+        
+        width: 70px;
+        height:70px;
+        position: relative;
+        right: 30px;
+        
+        
+    }
+    
+    .cardapio__texto{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+    
+    }
+    .cardapio__link{
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        color: black ;
+    
+    }
+    
+    .cardapio__link:hover{
+        font-size: 35px;
+        color: var(--cor--branco);
+    }
+    
+    
+    
+    .botao_fechamento2{
+        color: white;
+        font-weight: 600;
+       
+        font-size: 25px;
+        font-style: italic;
+        background-color: var(--cor--botao);
+        width: 15rem;
+        height: 50px;
+        border: 1px solid black;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 500ms;
+        margin-bottom: 15px;
+    
+    }
+    
+    .botao_fechamento2:hover{
+        font-size: 30px;
+        cursor: pointer;
+        background-color: #16df2091;
+        color:white;
+        transition: 200ms;
+        transform: scale(1.07);
+    }
+    
+    
+    hr{
+        border: 0.2px solid;
+    
+        border-image-source: linear-gradient(0deg, #B92022, #B92022),
+        linear-gradient(0deg, #B92022, #B92022);
+    
+        width: 250px;
+        opacity: 0.2;
+    }
+    
+    footer{
+    
+        position: absolute;
+       
+        bottom: 0;
+       
+        background-color: rgb(246, 205, 151,0.5);
+       
+       
+        width: 100%;
+       
+        height: 6.5vh;
+       
+        text-align: center;
+       
+       
+       
+       
+    }
+    
+    .footer_container{
+    
+        text-align: center;
+       
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 20px;
+       
+       
+    }   

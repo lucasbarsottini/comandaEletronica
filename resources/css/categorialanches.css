@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ysabeau:wght@100&display=swap");
+:root {
+    --cor--botao: #20b92880;
+}
+
+header {
+    background-color: rgba(230, 219, 225, 0.1);
+
+    width: 100%;
+    height: 8vh;
+
+    padding: 10px;
+    opacity: 70%;
+}
+
+hr {
+    border: 1px solid black;
+    width: 344px;
+    opacity: 40%;
+}
+
+.container_footer {
+    text-align: center;
+
+    font-size: 23px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+.page {
+    background-color: #ffa21733;
+    width: 100%;
+    height: 55.6rem;
+    align-items: center;
+    background-image: url("../img/lanches/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.principal {
+    text-align: center;
+    gap: 2px;
+    position: absolute;
+    height: 56rem;
+    width: 100%;
+    flex-direction: row;
+}
+
+.container_principal {
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    width: 21.7rem;
+    background-color: rgb(254, 221, 170, 0.7);
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 1px 1px 30px 35px rgba(0, 0, 0, 0.6);
+    margin-top: 65px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.logo_cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.container_imagem {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.descricao_produto {
+    text-align: center;
+}
+
+.container_observacao {
+    margin-bottom: 10px;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.imagem {
+    margin-top: 10px;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+
+.input_observacao {
+    text-align: center;
+    padding-left: 5px;
+    border-radius: 0.5rem;
+    border-style: double;
+    font-family: sans-serif;
+}
+
+.input_quantidade {
+    text-align: center;
+    border-style: double;
+    width: 48px;
+    height: 48px;
+    border-radius: 7px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.input_quantidade::-webkit-inner-spin-button,
+.input_quantidade::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input_adicionar {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    background: var(--cor--botao);
+    width: 150px;
+    border-radius: 10px;
+    border: 1px black;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    color: #fdfdfd;
+}
+
+.input_adicionar:hover {
+    background-color: #16df2091;
+    cursor: pointer;
+    border: 1px solid rgba(16, 17, 15, 0.829);
+    transition: 850ms;
+}
+
+.input_menos {
+    border-style: double;
+    border-radius: 5.7px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 7px;
+    margin-right: 25px;
+}
+
+.input_menos:hover {
+    background-color: transparent;
+    transition: 760ms;
+    transform: scale(1.1);
+    border: 1px hidden #ef432c;
+    border-radius: 30px;
+}
+.input_mais {
+    align-items: center;
+    border-radius: 5.7px;
+    border-style: double;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.input_mais:hover {
+    background-color: transparent;
+    transition: 760ms;
+    transform: scale(1.1);
+    border: 2px hidden black;
+    border-radius: 30px;
+}
+.container_botao {
+    display: flex;
+}
+
+.container_preco {
+    margin-top: 25px;
+}
+
+.nome_lanche {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 30px;
+}
+
+.texto_preco {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.imagem_logo {
+    width: 150px;
+    height: 150px;
+}
+
+.descricao_texto {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+.imagem_logo {
+    height: 100px;
+    width: 95;
+}
+
+.form_container {
+    display: flex;
+}
+
+footer {
+    position: absolute;
+
+    bottom: 0;
+    background-color: rgb(231, 155, 59, 0.5);
+
+    width: 100%;
+
+    height: 6.7vh;
+
+    text-align: center;
+}
+
+.footer_container {
+    text-align: center;
+
+    font-size: 23px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}

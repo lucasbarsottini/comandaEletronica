@@ -1,0 +1,128 @@
+:root {
+    --cor--principal: #ffddab;
+    --cor--cabecalho: #b92022;
+    --cor--branco: #f5f5f5;
+    --cor--botao: #20b92880;
+}
+.page {
+    background-color: var(--cor--principal);
+    background-image: url(../img/login/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 55.5rem;
+    align-items: center;
+}
+.container__cabecalho {
+    margin-bottom: 0.5rem;
+    background-color: rgb(159, 143, 130, 0.5);
+    width: 100%;
+    height: 3.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.container__principal {
+    display: flex;
+    height: 32.438rem;
+    width: 21.125rem;
+    background-color: rgba(255, 221, 171, 0.8);
+    box-shadow: 1px 1px 30px 35px rgba(0, 0, 0, 0.6);
+
+    margin: 3% auto;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+.texto__container__usuario {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.texto__container__senha {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.campo__login__container {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 25px;
+    display: block;
+    margin-left: 44px;
+    margin-bottom: 45px;
+    width: 242px;
+    height: 31px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+.container__senha {
+    height: 130px;
+    margin-bottom: 160px;
+}
+.submit__container {
+    height: 41px;
+    width: 191px;
+    position: relative;
+    bottom: 180px;
+    left: 75px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+
+    font-weight: 600;
+
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--cor--botao);
+    border-radius: 20px;
+    border: none;
+    transition: 500ms;
+}
+.submit__container:hover {
+    transition: 500ms;
+    transform: scale(1.4);
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #b92022;
+    color: white;
+}
+.container__logo {
+    padding-left: 5.9em;
+}
+
+footer {
+    position: absolute;
+
+    bottom: 0;
+
+    background-color: rgba(231, 154, 59, 0.637);
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    width: 100%;
+
+    height: 6.5vh;
+
+    text-align: center;
+}

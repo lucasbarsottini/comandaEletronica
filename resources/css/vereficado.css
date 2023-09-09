@@ -1,0 +1,150 @@
+:root {
+    --cor--principal: #ffddab;
+    --cor--cabecalho: #b92022;
+    --cor--branco: #f5f5f5;
+    --cor--botao: #20b92880;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ysabeau:wght@100&display=swap");
+
+.page {
+    background-color: var(--cor--principal);
+    background-image: url(../img/confirmado/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 55.5rem;
+    align-items: center;
+}
+
+.principal__imagem {
+    margin-top: 20px;
+    width: 95px;
+    height: 95px;
+}
+.container__cabecalho {
+    background-color: rgba(143, 59, 46, 0);
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+.botao__fechar__cabecalho {
+    font-size: 1.875rem;
+    color: yellow;
+    text-decoration: none;
+    margin-right: 0.625rem;
+}
+.container__principal {
+    display: flex;
+    height: auto;
+    width: 33rem;
+    background-color: rgb(254, 221, 170, 0.7);
+    margin: 4% auto;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    box-shadow: 1px 1px 30px 35px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    justify-content: center;
+    gap: 3rem;
+}
+
+hr {
+    border: 1px solid black;
+    width: 20rem;
+}
+
+.principal__texto {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 24px;
+    font-style: normal;
+
+    font-weight: 600;
+
+    font-size: 25px;
+
+    line-height: 30px;
+
+    display: inline-block;
+}
+.principal__texto1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.principal__link {
+    margin-right: 16rem;
+}
+
+.principal__link:hover {
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+
+    bottom: 0;
+
+    background-color: rgba(231, 154, 59, 0.637);
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    width: 100%;
+
+    height: 6.5vh;
+
+    text-align: center;
+}
+
+.footer_container {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.container_voltar {
+    background-color: #20b92880;
+    height: 23px;
+    width: 30rem;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: 600ms;
+}
+
+.link_voltar {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.link_voltar:hover {
+    cursor: pointer;
+    transition: 200ms;
+    color: white;
+}
+
+.container_voltar:hover {
+    cursor: pointer;
+    background-color: #16df2091;
+    color: white;
+    transition: 200ms;
+    transform: scale(1.04);
+}
+
+a {
+    color: #fdfdfd;
+    text-decoration: none;
+}
